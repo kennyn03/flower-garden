@@ -1,0 +1,51 @@
+.gate-intro {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: transparent; /* wood tone */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  overflow: hidden;
+}
+
+.gate-left, .gate-right {
+  position: absolute;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #8b5a2b;
+  transition: transform 2s ease-in-out;
+  z-index: 2;
+}
+
+.gate-left {
+  left: 0;
+  transform: translateX(0);
+  border-right: 2px solid #3e2614;
+}
+
+.gate-right {
+  right: 0;
+  transform: translateX(0);
+  border-left: 2px solid #3e2614;
+}
+
+.gate-intro.open .gate-left {
+  transform: translateX(-100%);
+}
+
+.gate-intro.open .gate-right {
+  transform: translateX(100%);
+}
+
+.gate-title {
+  color: white;
+  font-size: 3rem;
+  z-index: 3;
+  font-family: Georgia, serif;
+}
+
