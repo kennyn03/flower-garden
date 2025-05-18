@@ -1,7 +1,7 @@
+## From All the People of Your Life
+
+The people traveling with you. Sometimes they'll stay for a while and rest their weary heads on your shoulders. Sometimes they'll allow you to do the same on theirs. The path we walk is full of passerbys, but those that stick with us for a while form a connection, cemmented by the all the bumps, cracks, and nooks that the path pits against our journeys. You've only just began, but here's a small field of all the flowers that grew because of the seeds you planted alongside the road together with those you met along the way.
 
 # 🌸 Flower Garden
 
 An interactive virtual garden experience built with React and Vite.
-
-## For Grace Tran
-
